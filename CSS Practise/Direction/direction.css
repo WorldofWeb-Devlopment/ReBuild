@@ -1,0 +1,11 @@
+div>h1 {
+    direction: rtl;
+    margin: 2rem;
+    /* rtl work as a bolck level element and the direction only change rtl - right to left */
+
+}
+
+.left>h1 {
+    direction: ltr;
+
+}

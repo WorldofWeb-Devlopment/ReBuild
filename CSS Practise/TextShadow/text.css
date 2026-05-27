@@ -1,0 +1,23 @@
+h1{
+    color: rgb(172, 107, 9);
+    text-shadow: 5px 5px 10px #211f1f;
+    font-size: 10rem;
+    float: right;
+    
+}
+.box{
+    width: 10px;
+    height: 130px;
+    background-color: aqua;
+    box-shadow: 15px 10px 80px  #ff6161;
+    border: 1px solid #171717;
+    transition: all 0.5s;
+    justify-self: center;
+  
+   
+    
+}
+.box:hover{
+    scale: 1.1;
+    width: 130px;
+}

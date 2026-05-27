@@ -1,0 +1,18 @@
+.box{
+    width: 300px;
+    height: 400px;
+   background-color: red;
+   justify-self: center;
+   transform: translate(-2rem,5rem);
+                       /* X , Y -axis */
+    transition: all 1s ease-in ;
+    cursor: pointer;
+   
+    
+      
+}
+
+.box:hover{
+     transform: matrix(1.2,0,0,1.1,0,0);
+}
+

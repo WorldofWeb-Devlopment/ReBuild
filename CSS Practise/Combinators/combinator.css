@@ -1,0 +1,32 @@
+/* combinator */
+
+div p{
+    background-color: antiquewhite;
+}
+
+div>p{
+    background-color: bisque;
+}
+
+/* only select next sibling of div */
+
+/* div + p {
+    color: rgb(255, 255, 255);
+} */
+
+/* selecting all p tag after div */
+
+/* div~p{
+    color: rgb(255, 255, 255);
+} */
+
+
+
+
+a{
+    text-decoration: none;
+}
+body{
+    background-color: orange;
+    font-size: 2rem;
+}

@@ -1,0 +1,10 @@
+div:first-child{
+    font-size: 2rem;
+}
+div:nth-child(2){
+    font-size: 3rem;
+}
+p:last-child{
+    font-size: 4rem;
+    color: red;
+}
