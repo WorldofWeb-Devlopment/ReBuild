@@ -27,6 +27,11 @@ input{
 #submit-btn{
    display: block;
    margin: auto;
-   padding:10px 20px;
+   padding:10px 20px;   
+}
+#error-text{
+    font-family: sans-serif;
+    color: red;
+     padding: 0px 30px;
     
 }
