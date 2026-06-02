@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+h1{
+    /* font-size: 10vw; */
+    color: white;
+    font-size: clamp(1.8rem,calc(7vw + 2rem),5rem);
+}

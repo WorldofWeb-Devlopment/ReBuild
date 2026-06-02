@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+input{
+    padding: 20px 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #858484;
+    outline: none;
+}
+#submit-btn{
+   display: block;
+   margin: auto;
+   padding:10px 20px;
+    
+}
