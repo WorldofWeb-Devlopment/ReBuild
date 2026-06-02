@@ -1,0 +1,21 @@
+.page {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.page li {
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.page li:active{
+    background-color: green;
+    color: white;
+}
+.page li:hover:not(.active){
+    background-color: lightblue;
+}
