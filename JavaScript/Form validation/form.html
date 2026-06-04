@@ -1,42 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="form.css" />
-    <title>Form validation</title>
-  </head>
-  <body>
-    
-      <form>
-        <input
-          type="text"
-          alt="text"
-          id="text-box"
-          placeholder="Enter Your Name"
-          required >
-          <small id="error-text"></small>
-        <input
-          type="number"
-          alt="age"
-          id="age-box"
-          placeholder="Enter Your Age"
-          required >
-        <input
-          type="email"
-          alt="email"
-          id="email-box"
-          placeholder="Enter Your Email"
-          required >
-        <input
-          type="number"
-          alt="number"
-          id="number-box"
-          placeholder="Enter Your Number"
-          required >
-        <button id="submit-btn" type="submit">Submit</button>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="form.css">
+  <title>Form Validator</title>
+</head>
+
+<body>
+  <section class="container">
+      <form class="form-container">
+        <div class="user-name">
+          <label>User Name</label><br>
+          <input type="text" placeholder="Enter User Name" id="user-name1" />
+          <p class="error error-text"></p>
+        </div>
+        <div class="email-container">
+          <label>Email</label><br>
+          <input type="email" placeholder="Enter User Email" id="email"/>
+          <p class="error error-text1"></p>
+        </div>
+        <div class="password-container">
+          <label>Password</label><br>
+          <input type="password" placeholder="Enter Password" id="password"/><br>
+          <p class="error error-text2"></p>
+           <input type="checkbox" id="check-box"/>
+           <label class="label1">Show Password</label>
+        </div>
+        <div class="confirm-password">
+          <label>Confirm Password</label><br>
+          <input type="password" placeholder="Enter Confirm password" id="confirm-password1"/><br>
+          <p class="error error-text3"></p>
+           <input type="checkbox" id="check-box-confirm"/>
+           <label class="label1">Show Confirm Password</label>
+        </div>
+        <button type="submit" id="btn">Submit</button>
       </form>
     
-    <script src="form.js"></script>
-  </body>
+  </section>
+  <script src="./form.js"></script>
+</body>
+
 </html>
